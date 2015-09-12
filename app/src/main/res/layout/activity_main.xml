@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CFD8DC"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="sans-serif-dark"
+            android:text="@string/app_header"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/CustomButtonDesign"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-dark"
+                android:onClick="spotifyStreamerApp"
+                android:text="@string/spotify_streamer_app"
+                android:textAllCaps="true" />
+
+            <Button
+                style="@style/CustomButtonDesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-dark"
+                android:onClick="scoresApp"
+                android:text="@string/scores_app"
+                android:textAllCaps="true" />
+
+            <Button
+                style="@style/CustomButtonDesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-dark"
+                android:onClick="buildItBiggerApp"
+                android:text="@string/build_it_bigger"
+                android:textAllCaps="true" />
+
+            <Button
+                style="@style/CustomButtonDesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-dark"
+                android:onClick="libraryApp"
+                android:text="@string/library_app"
+                android:textAllCaps="true" />
+
+            <Button
+                style="@style/CustomButtonDesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-dark"
+                android:onClick="xyzReaderApp"
+                android:text="@string/xyz_reader_app"
+                android:textAllCaps="true" />
+
+            <Button
+                style="@style/MyAppButtonDesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-dark"
+                android:onClick="capstoneApp"
+                android:text="@string/capstone_app"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
